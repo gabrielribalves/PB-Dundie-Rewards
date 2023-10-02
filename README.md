@@ -15,5 +15,3 @@ e que no futuro terá também as interfaces OI, web e API.
 
 Os dados dos funcionários atuais serão fornecidos em um arquivo que pode ser no formato .csv ou .json
 e este mesmo arquivo poderá ser usado para versões futuras. `Nome, Depto, Cargo, Email`
-
-a
