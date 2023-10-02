@@ -1,0 +1,4 @@
+ipdb #Para debug
+ipython #Para rodar o código melhor que o python3
+pudb #Para debug
+pytest-watch #Módulo do pytest que roda o python toda vez que salva
