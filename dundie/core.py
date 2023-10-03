@@ -2,6 +2,7 @@ from dundie.utils.log import getLogger
 
 log = getLogger()
 
+
 def load(filepath):
     """Loads data from filepath to the database.
     >>> len(load('assets/people.csv'))

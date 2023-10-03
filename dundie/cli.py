@@ -1,6 +1,7 @@
 import argparse
 from dundie.core import load
 
+
 def main():
     parser = argparse.ArgumentParser(
         description="Dunder Mifflin Rewards CLI",
@@ -11,7 +12,7 @@ def main():
         type=str,
         help="The subcommand to run",
         choices=("load", "show", "send"),
-        default="help"
+        default="help",
     )
     parser.add_argument(
         "filepath",
@@ -20,9 +21,8 @@ def main():
         default=None,
     )
     args = parser.parse_args()
-    
+
     try:
         print(*globals()[args.subcommand](args.filepath))
     except KeyError:
         print("Subcommand is invalid")
-   

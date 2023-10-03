@@ -6,3 +6,5 @@ pytest-watch #Módulo do pytest que roda o python toda vez que salva
 #Code quality
 flake8
 pyproject-flake8
+black
+isort
